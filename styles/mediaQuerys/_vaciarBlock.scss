@@ -1,0 +1,76 @@
+@media (max-width:850px){
+    .VaciarCarrito-container{
+        .VaciarCarrito{
+            width: 36vw !important;
+            height: 22vw !important;
+            left: 32% !important;
+            .title-vaciar{
+                font-size: 3.6vw !important;
+            }
+            .button-vaciar-container{
+                .button-vaciar{
+                    margin: 2vw !important;
+                    font-size: 2.3vw !important;
+                    padding: 1.3vw !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width:620px){
+    .VaciarCarrito-container{
+        .VaciarCarrito{
+            width: 50vw !important;
+            height: 27vw !important;
+            left: 25% !important;
+            .title-vaciar{
+                font-size: 4.2vw !important;
+            }
+            .button-vaciar-container{
+                .button-vaciar{
+                    margin: 3vw !important;
+                    font-size: 3vw !important;
+                    padding: 1.5vw !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width:470px){
+    .VaciarCarrito-container{
+        .VaciarCarrito{
+            width: 60vw !important;
+            height: 30vw !important;
+            left: 20% !important;
+            .title-vaciar{
+                font-size: 5.5vw !important;
+            }
+            .button-vaciar-container{
+                .button-vaciar{
+                    margin: 3vw !important;
+                    font-size: 4vw !important;
+                    padding: 1.8vw !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width:350px){
+    .VaciarCarrito-container{
+        .VaciarCarrito{
+            width: 60vw !important;
+            height: 40vw !important;
+            left: 20% !important;
+            .title-vaciar{
+                font-size: 6.5vw !important;
+            }
+            .button-vaciar-container{
+                .button-vaciar{
+                    margin: 3vw !important;
+                    font-size: 4.5vw !important;
+                    padding: 2vw !important;
+                }
+            }
+        }
+    }
+}

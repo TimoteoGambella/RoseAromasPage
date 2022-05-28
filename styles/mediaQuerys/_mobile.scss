@@ -1,0 +1,204 @@
+@media only screen and (max-width:480px){
+
+    //CABECERO
+    .cabecero{
+        display: flex;
+        flex-wrap: wrap;
+        .tituloD{
+            display: none;
+        }
+        .tituloI{
+            display: none;
+        }
+        .tituloMobile{
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 11vw;
+            margin-top: 4vw;
+        }
+        .container-logoRose{
+            width: 100%;
+            text-align: center;
+            .container2-logoRose{
+                width: 35vw;
+                margin: 0 auto;
+            }
+            p{
+                font-size: 3vw;
+            }
+        }
+    }
+
+    // NAVBAR
+    
+    .navbar-container{
+        align-items: flex-start;
+        margin-bottom: 8vw;
+        .navbar {
+            font-size: 4vw;
+            margin-left: 18vw !important;
+            a{
+                font-size: 5vw !important;
+                text-align: center;
+            }
+        }
+    }
+    #referenciaMenu{
+        font-size: 7vw !important;
+    }
+
+    //NUESTROS PRODUCTOS 
+    .container-Nprods{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center;
+    }
+
+    .container-Nprods-left{
+        margin-left: 0vw;
+    }
+
+    .container-Nprods-right{
+        margin-right: 0vw;
+        margin-left: 0vw;
+    }
+
+
+
+    // FOOTER
+
+    .piePagina {
+        margin-top: 18vw;
+
+        .footer-inicial {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            background-color: #c7e5e3;
+    
+    
+            img{
+                width: 45vw;
+            }
+    
+            .contacto{
+                margin-top: 4vw;
+                margin-bottom: 0;
+                font-size: 5.5vw;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                p{
+                    margin-bottom: 0;
+                }
+    
+                a{
+                    font-size: 4.5vw;
+                    margin-top: 1vw;
+                }
+            }
+          
+          }
+
+          .copyright {
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 1vw;
+            cursor: context-menu;
+            font-size: 3vw;
+            background-color: #c7e5e3;
+          }
+    }
+    
+    // CAROUSEL
+
+    .carousel{
+        margin-top: 15vw;
+        margin-bottom: 10vw;
+    }
+
+        // PRODUCTOS INICIO
+
+        .titulo-productos{
+            font-size: 6.5vw;
+        }
+        .contenedor-productos-inicio{
+            flex-wrap: wrap;
+            gap: 3vw;
+            margin-left: 2.5vw;
+            margin-right: 2.5vw;
+            .contenedor-card-inicio{
+                width: 38vw;
+            }
+            .productos-inicio{
+                h3{
+                    font-size: 5vw !important;
+                }
+            }
+        }
+
+
+    // CAROUSEL FRAGANCIA
+
+    .titulo-fragancias{
+        font-size: 6.5vw;
+    }
+
+    // LOGO WHAP
+
+    .container-logoWhap{
+        width: 12vw !important;
+    }
+      
+
+    // GOOGLE MAPS
+    .container-map{
+        margin-top: 10vw;
+        .container-map-titulo{
+            font-size: 9vw !important;
+        }
+        iframe{
+            width: 90vw !important;
+            height: 40vh !important;
+        }
+    }
+
+        // QUIEN SOY BIO
+
+        .biografia{
+            margin: 5vw 10vw;
+            padding-top: 2vw;
+            padding-bottom: 4vw;
+        }
+        .biografia{
+            h1{
+                font-size: 8vw;
+            }
+            p{
+                font-size: 5vw;
+            }
+        }
+
+    // TIENDA
+
+    .navbar-tienda{
+        ul{
+            flex-direction: column;
+            padding-left: 0px !important;
+        }
+        li{
+            font-size: 5vw;
+        }
+    }
+
+
+
+    // FORM
+    .form-container .form{
+        width: 100%;
+    }
+
+}

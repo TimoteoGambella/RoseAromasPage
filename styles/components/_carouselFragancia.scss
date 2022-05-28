@@ -1,0 +1,28 @@
+.container-carouselFragancia{
+    width: 90%;
+    margin: 9vw auto;
+    text-align: center;
+    height: 20vw;
+    .carousel-indicators button{
+        display: none;
+    }
+    .carousel-caption{
+        background-color: transparent;
+    }
+    .carouselF-foto{
+        border-radius: 2vw;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+
+.titulo-fragancias{
+    text-align: center;
+    padding-top: 12vw;
+    margin-bottom: -5vw;
+    font-family: "Montserrat", sans-serif;
+    color: #084444;
+    font-weight: 600;
+    font-size: 3vw;
+}

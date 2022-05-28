@@ -1,0 +1,158 @@
+@media only screen and (min-width:481px) and (max-width:960px){
+
+    // CABECERO
+    .cabecero{
+        .container-titulo{
+            width: 28vw !important;
+        }
+        .container-logoRose{
+            width: 28vw;
+        }
+        .container-logoRose{
+            p{
+                font-size: 2.2vw !important;
+            }
+        }
+        h1{
+            font-size: 6vw !important;
+        }
+    }
+       
+    // NAVBAR
+
+    .navbar-container{
+        align-items: flex-start;
+        margin-bottom: 2vw;
+
+        #referenciaMenu {
+            font-size: 4vw;
+        }
+        .navbar-nav{
+            font-size: 2.5vw;
+            text-align: center;
+        }
+    }
+    .cartWidget-container{
+        flex-grow: 1;
+        text-align: center;
+        margin-top: 1.5vw;
+    }
+
+    
+    // FOOTER
+
+    .piePagina {
+
+        .footer-inicial {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            background-color: #c7e5e3;
+
+            img{
+                width: 30vw;
+                max-width: 30vw;
+            }
+    
+            .contacto{
+                margin-top: 4vw;
+                margin-bottom: 0;
+                font-size: 3.8vw;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                p{
+                    margin-bottom: 0;
+                }
+    
+                a{
+                    font-size: 2.8vw;
+                    margin: 0.5vw;
+                }
+            }
+          
+          }
+
+          .copyright {
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 1vw;
+            cursor: context-menu;
+            font-size: 2vw;
+            background-color: #c7e5e3;
+          }
+    }
+
+
+    // CAROUSEL
+
+      .container-carousel{
+        width: 80%;
+        margin-top: 6vw;
+        .carousel-caption{
+            width: 50%;
+            height: 15vw;
+            h3{
+                font-size: 3vw;
+            }
+            p{
+                font-size: 1.8vw;
+            }
+        }
+    }
+
+    // PRODUCTOS INICIO
+
+    .titulo-productos{
+        font-size: 5vw;
+    }
+    .contenedor-productos-inicio{
+        flex-wrap: wrap;
+        gap: 3vw;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        .contenedor-card-inicio{
+            width: 32vw;
+        }
+        .productos-inicio{
+            h3{
+                font-size: 4vw !important;
+            }
+        }
+    }
+
+    // CAROUSEL FRAGANCIA
+    
+    .titulo-fragancias{
+        font-size: 5vw;
+    }
+
+
+    // LOGO WHAP
+
+    .container-logoWhap{
+        width: 7.6vw !important;
+    }
+
+    // QUIEN SOY BIO
+
+    .biografia{
+        margin: 5vw 15vw;
+        padding-top: 2vw;
+        padding-bottom: 4vw;
+    }
+    .biografia{
+        h1{
+            font-size: 6vw;
+        }
+        p{
+            font-size: 3vw;
+        }
+    }
+
+    // FORM
+    .form-container .form{
+        width: 90%;
+    }
+}

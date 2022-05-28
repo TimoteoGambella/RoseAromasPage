@@ -1,0 +1,44 @@
+.cabecero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3vw;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 3vw;
+    
+    img{
+        padding-top: 1.5vw;
+        width: 12vw;
+    }
+
+    div{
+        text-align: center;
+
+        p{
+            font-weight: 600;
+            font-size: 2vw;
+        }
+    }
+
+    .tituloI{
+        text-align: center;
+        font-size: 4.5vw;
+        font-weight: 300;
+    }
+
+    .tituloD{
+        text-align: center;
+        font-size: 4.5vw;
+        font-weight: 300;
+    }
+    .tituloMobile{
+        display: none;
+    }
+    .container-logoRose{
+        width: 20vw;
+        cursor: pointer;
+    }
+    .container-titulo{
+        width: 20vw;
+    }
+}

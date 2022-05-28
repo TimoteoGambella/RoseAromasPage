@@ -1,0 +1,146 @@
+@media (max-width:995px){
+    .validacion-mensaje{
+        font-size: 1.5vw;
+    }
+}
+@media (max-width:900px){
+    .boton-validar{
+        font-size: 1.5vw !important;
+    }
+    .boton-validar-sinHover{
+        font-size: 1.5vw !important;
+    }
+}
+@media (max-width:800px){
+    .boton-validar{
+        font-size: 2vw !important;
+        margin-bottom: 1.5vw !important;
+        margin-top: 1.5vw !important;
+    }
+    .boton-validar-sinHover{
+        font-size: 2vw !important;
+    }
+
+    .input-span{
+        input{
+            font-size: 3vw;
+            width: 50vw;
+        }
+    }
+    .radioButton{
+        label{
+            font-size: 2.5vw !important;
+        }
+    }
+    .total-a-pagar{
+        font-size: 3vw !important;
+    }
+    .checkbox{
+        font-size: 2.5vw;
+        input{
+            transform: scale(1.2);
+        }
+    }
+}
+@media (max-width:750px){
+    .validacion-mensaje{
+        font-size: 2vw;
+    }
+}
+@media (max-width:600px){
+    .validacion-mensaje{
+        font-size: 2.5vw;
+    }
+}
+@media (max-width:550px){
+    .boton-validar{
+        font-size: 3vw !important;
+        margin-top: 3vw !important;
+    }
+    .boton-validar-sinHover{
+        font-size: 3vw !important;
+    }
+
+    .input-span{
+        input{
+            font-size: 4.2vw;
+            width: 60vw;
+            padding-left: 2vw !important;
+            margin-top: 1.5vw !important;
+        }
+    }
+    .radioButton{
+        label{
+            font-size: 3.5vw !important;
+        }
+    }
+    .total-a-pagar{
+        font-size: 4vw !important;
+        margin-top: 5vw !important;
+    }
+    .checkbox{
+        font-size: 3vw;
+        margin-top: 5vw;
+        input{
+            transform: scale(1);
+        }
+    }
+    .envio-trans{
+        max-width: 50vw;
+    }
+}
+@media (max-width:420px){
+    .validacion-mensaje{
+        font-size: 3.5vw;
+    }
+    .radioButton{
+        margin: 0;
+        label{
+            font-size: 4.8vw !important;
+            width: 100%;
+            margin: 0 !important;
+            margin-top: 5vw !important;
+        }
+    }
+    .checkbox{
+        label{
+            font-size: 4.8vw !important;
+        }
+    }
+}
+@media (max-width:370px){
+    .validacion-mensaje{
+        font-size: 4.5vw !important;
+    }
+    .boton-validar{
+        font-size: 4vw !important;
+        margin-left: 2vw !important;
+    }
+    .boton-validar-sinHover{
+        font-size: 4vw !important;
+        margin-left: 2vw !important;
+    }
+
+    .input-span{
+        input{
+            font-size: 5vw;
+            width: 80vw;
+            padding-left: 3vw !important;
+        }
+    }
+    .radioButton{
+        label{
+            font-size: 4vw !important;
+        }
+    }
+    .total-a-pagar{
+        font-size: 5.5vw !important;
+        margin-left: 2vw !important;
+    }
+    .checkbox{
+        font-size: 4vw;
+        input{
+            transform: scale(1);
+        }
+    }
+}

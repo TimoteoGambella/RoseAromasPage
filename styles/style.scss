@@ -1,0 +1,29 @@
+@import 'imports';
+  
+*{
+    background-color: #dee6e6;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    width: 13px;
+}
+*::-webkit-scrollbar-thumb {
+    background: #084444;
+    border-radius: 2vw;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+input, input:before, input:after {
+    -webkit-user-select: initial;
+    -khtml-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+   }

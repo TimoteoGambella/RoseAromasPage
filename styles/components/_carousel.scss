@@ -1,0 +1,38 @@
+.prev-next-btn{
+    background-color: transparent;
+}
+.container-carousel{
+    width: 70%;
+    margin: 6vw auto -1vw;
+    text-align: center;
+    .carousel-caption{
+        background:rgba(8, 68, 68, 0.5);
+        width: 40%;
+        height: 11vw;
+        margin: 0 auto;
+        border-radius: 3vw;
+        margin-bottom: -0.5vw;
+        padding-top: 0.5rem;
+        h1{
+            font-size: 2.5vw;
+            background-color: transparent;
+        }
+        p{
+            font-size: 1.2vw;
+            margin: 0 2vw;
+            background-color: transparent;
+        }
+    }
+    .carousel-foto{
+        border-radius: 2vw;
+    }
+    .carousel-indicators button{
+        display: none;
+    }
+}
+.carousel-titulo-mobile{
+    display: none;
+}
+.carousel-desc-mobile{
+    display: none;
+}

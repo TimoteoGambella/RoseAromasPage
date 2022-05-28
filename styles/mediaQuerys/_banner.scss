@@ -1,0 +1,13 @@
+@media (min-width:575px){
+    .banner-2{
+        display: none;
+    }
+}
+@media (max-width:574px){
+    .banner-2{
+        display: block;
+    }
+    .banner-1{
+        display: none;
+    }
+}

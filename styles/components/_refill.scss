@@ -1,0 +1,47 @@
+.title-refill{
+    text-align: center;
+    color: hsl(180, 79%, 15%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    margin-top: 4vw;
+}
+.container-refill{
+    width: 60%;
+    margin: 3vw auto;
+    text-align: center;
+    font-size: 2vw;
+    color: hsl(180, 79%, 15%);
+    border-right: 5px double hsl(180, 79%, 15%);
+    border-left: 5px double hsl(180, 79%, 15%);
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+    margin-bottom: 10vw;
+    .puntos-refill{
+        font-weight: 600;
+        font-size: 2.8vw;
+        margin-bottom: 1vw;
+        margin-top: 1vw;
+    }
+    ul{
+        list-style: none;
+        padding-left: 0vw;
+        margin-bottom: 3vw;
+    }
+    .contacto-refill{
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 3.5vw;
+        padding: 1vw;
+        margin-top: 3vw;
+        color: hsl(180, 79%, 15%);
+        text-decoration: none;
+        &:hover{
+            background-color: hsl(180, 79%, 15%);
+            color: #dee6e6;
+            border-radius: 2vw;
+        }
+    }
+}

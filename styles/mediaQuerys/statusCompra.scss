@@ -1,0 +1,45 @@
+@media (max-width:800px){
+    .status-compra{
+        height: 25vw !important;
+        width: 40vw !important;
+        left: 30% !important;
+    }
+    .title-status{
+        font-size: 4vw !important;
+    }
+    .button-accept-status{
+        button{
+            font-size: 3vw !important;
+        }
+    }
+}
+@media (max-width:500px){
+    .status-compra{
+        height: 39vw !important;
+        width: 60vw !important;
+        left: 20% !important;
+    }
+    .title-status{
+        font-size: 6vw !important;
+    }
+    .button-accept-status{
+        button{
+            font-size: 4vw !important;
+        }
+    }
+}
+@media (max-width:350px){
+    .status-compra{
+        height: 45vw !important;
+        width: 70vw !important;
+        left: 15% !important;
+    }
+    .title-status{
+        font-size: 7vw !important;
+    }
+    .button-accept-status{
+        button{
+            font-size: 5vw !important;
+        }
+    }
+}

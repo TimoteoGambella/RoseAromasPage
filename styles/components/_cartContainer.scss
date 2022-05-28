@@ -1,0 +1,86 @@
+.cart-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10vw;
+    margin-top: 6vw;
+
+    .line{
+        width: 80%;
+        border: 1px solid #08444433;
+        margin-bottom: 1em;
+    } 
+
+    .gridItem{
+        font-size: 1.5vw;
+    }   
+    .fragancia-cart{
+        font-size: 1vw;
+    }
+    .item-cart-container{
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+
+        .resume-cart-container{
+            width: 100%;
+            height: auto;
+            margin: 1em;
+            font-family: "Montserrat", sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+
+
+            .grid-row-cart{
+                width: 100%;
+                display: grid;
+                grid-template-columns: 80% 20%;
+                grid-gap: 2px;
+                align-items: center;
+                justify-content: center;
+            }
+            .grid-info-adicional{
+                width: 100%;
+                text-align: left;
+            }
+
+            h3{
+                font-size: 1.5em;
+            }
+
+            p{
+                font-size: 1em;
+            }
+        }
+
+        .cart-actions{
+            width: 80%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            button{
+                font-family: "Montserrat", sans-serif;
+                font-weight: 600;
+                background-color: hsl(180, 79%, 15%);
+                color: white;
+                padding: 0.9em;
+                cursor: pointer;
+                border-radius: 0.4em;
+                margin: 0.5em;
+            }
+        }   
+    }
+    .itemCount{
+        width: 4vw;
+    }
+    .grid-container{
+        font-size: 1.8vw;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "rose-velas",
+  "homepage": "https://www.rosearomas.com.ar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@emailjs/browser": "3.6.2",
+    "@emotion/react": "11.8.2",
+    "@emotion/styled": "11.8.1",
+    "@material-ui/core": "4.12.3",
+    "@mui/icons-material": "5.5.1",
+    "@mui/lab": "5.0.0-alpha.75",
+    "@mui/material": "5.5.3",
+    "bootstrap": "5.1.3",
+    "emailjs": "4.0.0",
+    "firebase": "9.6.10",
+    "just-detect-adblock": "^1.1.0",
+    "mercadopago": "^1.5.12",
+    "next": "12.1.1",
+    "node": "17.7.2",
+    "nodemailer": "6.7.3",
+    "react": "17.0.2",
+    "react-animated-css": "1.2.1",
+    "react-bootstrap": "2.2.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "7.29.0",
+    "react-media": "1.10.0",
+    "sass": "1.49.9"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-adsense": "^2.0.0",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.1"
+  }
+}

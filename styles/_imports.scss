@@ -1,0 +1,61 @@
+//FONTS
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+// PAGES
+@import "./pages/index";
+@import "./pages/nuestrosProductos";
+@import "./pages/quienSoy";
+@import "./pages/refill";
+@import "./pages/tienda";
+
+//COMPONENTS
+@import "./components/carousel";
+@import "./components/carouselFragancia";
+@import "./components/cabecero";
+@import "./components/cartWidget";
+@import "./components/footer";
+@import "./components/navbar";
+@import "./components/navbarTienda";
+@import "./components/tienda-container";
+@import "./components/cardProducto";
+@import "./components/itemCount";
+@import "./components/itemTypeSelect";
+@import "./components/addCartButton";
+@import "./components/productosInicio";
+@import "./components/notification";
+@import "./components/detailsButton";
+@import "./components/cartContainer";
+@import "./components/itemCart";
+@import "./components/detailsBlock";
+@import "./components/loader";
+@import "./components/refill";
+@import "./components/form";
+@import "./components/dashboard";
+@import "./components/dashboardOrdenes";
+@import "./components/statusCompra";
+@import "./components/index";
+@import "./components/dashboardProductos";
+@import "./components/dashboardFragancias";
+@import "./components/dashboardAddFragancias";
+@import "./components/dashboardAddProducto";
+
+// MEDIA QUERYS
+@import "./mediaQuerys/mobile";
+@import "./mediaQuerys/tablet";
+@import "./mediaQuerys/desktop";
+@import "./mediaQuerys/botonInicio";
+@import "./mediaQuerys/carouselInicio";
+@import "./mediaQuerys/googleMap";
+@import "./mediaQuerys/filtrosTienda";
+@import "./mediaQuerys/tienda";
+@import "./mediaQuerys/notificacionFragancia";
+@import "./mediaQuerys/detailsBlock";
+@import "./mediaQuerys/vaciarBlock";
+@import "./mediaQuerys/refill";
+@import "./mediaQuerys/_cart.scss";
+@import "./mediaQuerys/banner";
+@import "./mediaQuerys/carouselFragancia";
+@import "./mediaQuerys/form";
+@import "./mediaQuerys/statusCompra.scss";
+@import "./mediaQuerys/nuestrosProductos";
+@import "./mediaQuerys/index";

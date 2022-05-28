@@ -1,0 +1,52 @@
+.navbar-tienda {
+    justify-content: center !important;
+    width: 100%;
+    .navbar-collapse{
+        ul{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 1.5vw;
+            border-top: 1px solid #08444433;
+            p{
+                text-decoration: none;
+                color: rgba(0,0,0,.55) !important;
+                cursor: pointer;
+                margin: 1.5vw;
+                transition: color 0.2s ease-in-out;
+                padding: 1vw;
+                cursor: pointer;
+                list-style: none;
+                font-size: 2.5vw;
+                &:hover{
+                background-color: #084444 !important;
+                color: #c7e5e3 !important;                
+                }
+            }
+        }
+        .Filtro1{
+          display: flex;
+        }
+        .Filtro2{
+          display: flex;
+        }
+      }
+    }
+
+  .navbar-toggler{
+    background-color: #dee6e6;
+    margin-bottom: 2vw;
+    .navbar-toggler-icon {
+      color: black;
+      display: inline-block;
+      width: 1.5em;
+      height: 1.5em;
+      vertical-align: middle;
+      background: 50%/100% 100% no-repeat;
+    }
+    span{
+      font-size: 2vw;
+    }
+  }

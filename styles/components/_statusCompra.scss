@@ -1,0 +1,52 @@
+
+.status-compra-container{
+    width: 100vw;
+    height: 100%;
+    background-color: hsl(180, 79%, 15%,0.5);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+    z-index: 10;
+    .status-compra{
+        position: fixed;
+        z-index: 2;
+        width: 30vw;
+        height: 18vw;
+        top: 20%;
+        left: 35%;
+        background-color: #dee6e6;
+        border: 3px solid hsl(180, 79%, 15%);
+        display: flex;
+        flex-direction: column;
+        border-radius: 3vw;
+        .title-status{
+            font-size: 2.5vw;
+            margin: 0.8vw auto;
+            color: hsl(180, 79%, 15%);
+            background-color: transparent;
+            text-align: center;
+        }
+        .button-accept-status{
+            margin-top: 2vw;
+            display: flex;
+            justify-content: center;
+            border-radius: 3vw;
+            background-color: transparent;
+            button{
+                width: fit-content;
+                font-size: 2vw;
+                background-color: hsl(180, 79%, 15%);
+                padding: 0.8vw;
+                cursor: pointer;
+                border-radius: 3vw;
+                color: #dee6e6;
+                &:hover{
+                    background-color: #dee6e6;
+                    color: hsl(180, 79%, 15%);
+                    border: 3px solid hsl(180, 79%, 15%);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,130 @@
+.dashboard-productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+
+    .dash-buscador{
+        width: 30%;
+        input{
+            width: 100%;
+            padding: 0.5em;
+            border-radius: 1em;
+            background-color: #0b5a5a4a;
+        }
+    }
+
+    button{
+        background-color: #0b5a5a;
+        color: white;
+        padding: 0.9em;
+        cursor: pointer;
+        border-radius: 0.4em;
+        margin: 1.5em;
+    }
+
+
+    .dashboard-productos-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .dash-prod-item-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            max-height: 320px;
+            
+            .dash-prod-item{
+                border: 1px solid black;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                margin: 1em;
+                height: auto;
+
+                .img-dash-prod-item{
+                    width: 50% !important;
+                    max-width: 50% !important;
+                    min-height: 50% !important;
+                }
+
+
+                .dash-prod-item-box{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 100%;
+                    height: 100%;
+
+                    div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0.8em;
+                        transition: all 1s ease;
+
+                        .form-input, h5{
+                            margin-left: 0.5em;
+
+                        }
+                    }
+
+                    input{
+                        background-color: #0b5a5a7e;
+                        color: black;
+                        border-radius: 0.4em;
+                        margin: 0.5em;
+                        padding: 0.5em;
+                        border: none;
+                    }
+                }
+
+                .delete-item-box{
+                    width: 50% !important;
+                    button{
+                        &:hover{
+                            background-color: #dee6e6;
+                            color: hsl(180, 79%, 15%);
+                            border: 2px solid hsl(180, 79%, 15%);
+                        }
+                    }
+                }
+
+
+                svg{
+                    cursor: pointer;
+                    margin-left: 0.5em;
+                    opacity: 0.5;
+                    color: #0b5a5a;
+                    font-size: 3vh;
+
+                    &:hover{
+                        opacity: 1;
+                    }
+                }
+
+
+            }
+        }
+        .noSeEncontro{
+            margin-top: 2vw;
+            font-size: 2vw;
+        }
+    }
+    .textarea{
+        height: 10vw;
+        width: 16vw;
+        padding: .2vw .4vw;
+        resize: none;
+    }
+}

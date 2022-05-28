@@ -1,0 +1,112 @@
+@media (min-width:551px){
+    .container-details-cart{
+        display: none;
+    }
+}
+@media (max-width:550px){
+
+    .desc-card-tienda{
+        display: none;
+    }
+    #fragancias{
+        display: none;
+    }
+    .itemCountContainer{
+        display: none;
+    }
+    .MuiPaper-root{
+        width: 45%;
+    }
+    .css-46bh2p-MuiCardContent-root{
+        width: 100% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .add-cart-button{
+        display: none !important;
+    }
+    .details-cart-button{
+        display: block !important;
+    }
+    .css-1qw96cp{
+        width: 100%;
+        min-height: 26vh;
+        padding: 0px !important;
+    }
+    .container-details-cart{
+        z-index: 5;
+    }
+    .css-h93ljk-MuiTypography-root{
+        min-height: 5rem !important;
+        max-height: 5rem !important;
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
+        min-width: 100% !important;
+        &::-webkit-scrollbar {
+            width: 3px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: #084444;
+            border-radius: 2vw;
+        }
+        
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+    }
+}
+@media (max-width:530px){
+    .css-t1nuxs{
+        min-height: 13vh;
+    }
+}
+@media (max-width:495px){
+    .css-h93ljk-MuiTypography-root{
+        height: 18vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4vw !important;
+    }
+    .css-h7st5a{
+        font-size: 3.5vw !important;
+    }
+    .img-card-tienda{
+        &:hover img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+@media(max-width:450px){
+    .css-h93ljk-MuiTypography-root{
+        font-size: 4.5vw !important;
+    }
+    .css-h7st5a{
+        font-size: 4vw !important;
+    }
+}
+@media(max-width:400px){
+    .css-h93ljk-MuiTypography-root{
+        font-size: 4.8vw !important;
+    }
+    .css-h7st5a{
+        font-size: 4.4vw !important;
+    }
+}
+@media(max-width:380px){
+    .css-1ri6ub7-MuiPaper-root-MuiCard-root{
+        margin: 1vw;
+    }
+    .css-46bh2p-MuiCardContent-root{
+        padding: .5em 0em;
+    }
+}
+@media(max-width:340px){
+    .css-h93ljk-MuiTypography-root{
+        font-size: 5.5vw !important;
+    }
+    .css-h7st5a{
+        font-size: 5vw !important;
+    }
+}

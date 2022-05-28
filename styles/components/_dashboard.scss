@@ -1,0 +1,39 @@
+.dashboard-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column;
+
+    .dashboard-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 8vh;
+
+        h2, h3{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 300;
+            font-size: 4vw;
+            color: #084444;
+            text-decoration: none;
+            background-color: transparent;
+        }
+    }
+
+    .button-entregada{
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .dashboard-type{
+        width: 90%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 5vh;
+    }
+}

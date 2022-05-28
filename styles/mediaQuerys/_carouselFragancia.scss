@@ -1,0 +1,16 @@
+@media(min-width: 541px){
+    .carouselF-2{
+        display: none;
+    }
+}
+@media(max-width:540px){
+    .carouselF-2{
+        display: block;
+    }
+    .carouselF-1{
+        display: none;
+    }
+    .container-carouselFragancia{
+        margin-bottom: 60vw !important;
+    }
+}

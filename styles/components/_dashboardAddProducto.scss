@@ -1,0 +1,36 @@
+.add-producto-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .form-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3vw;
+        margin-top: 2vw;
+        margin-left: 10vw;
+        div{
+            width: 80%;
+        }
+    }
+
+    .actions-addproduct{
+        width: fit-content !important;
+        margin-left: -20vw;
+        button{
+            background-color: #0b5a5a;
+            color: white;
+            padding: 0.9em;
+            cursor: pointer;
+            border-radius: 0.4em;
+            margin: 1em;
+            &:hover{
+                background-color: #dee6e6;
+                color: hsl(180, 79%, 15%);
+                border: 2px solid hsl(180, 79%, 15%);
+            }
+        }
+    }
+}

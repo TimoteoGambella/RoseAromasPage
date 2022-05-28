@@ -1,0 +1,47 @@
+
+@keyframes appear{
+    0%{
+        margin-left: -1500px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+
+.texto-cargando{
+    margin-top: 20vh;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+    height: 50vw;
+}
+.appear{
+    width: 100%;
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    margin-bottom: 5vw;
+}
+.appear-ban2{
+    width: 100%;
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    margin-bottom: 5vw;
+}
+.container-logoWhap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 1vw;
+    background-color: transparent;
+    width: 5vw;
+    z-index: 2;
+    .logoWhap{
+        background-color: transparent;
+    }
+    a{
+        background-color: transparent;
+    }
+}

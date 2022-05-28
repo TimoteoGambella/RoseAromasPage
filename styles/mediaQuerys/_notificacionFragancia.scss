@@ -1,0 +1,46 @@
+@media (max-width:950px){
+    .notification-container{
+        justify-content: center !important;
+        align-items: center !important;
+        .notification{
+            width: 50%;
+            text-align: center;
+            p{
+                font-size: 3.5vw !important;
+                line-height: 4vw;
+            }
+        }
+    }
+}
+@media (max-width:650px){
+    .notification-container{
+        .notification{
+            width: 70%;
+            p{
+                font-size: 5vw !important;
+                line-height: 5.5vw;
+            }
+        }
+    }
+}
+@media (max-width:550px){
+    .notification{
+        & > p{
+            background-color: white !important;
+            color: #084444 !important;
+            font-weight: 600 !important;
+            border: 3px solid #084444;
+        }
+    }
+}
+@media (max-width:400px){
+    .notification-container{
+        .notification{
+            width: 70%;
+            p{
+                font-size: 6vw !important;
+                line-height: 5.5vw;
+            }
+        }
+    }
+}

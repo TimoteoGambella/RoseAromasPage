@@ -1,0 +1,138 @@
+.container-form-compra{
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+
+}
+.form-title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 6vw;
+    text-align: center;
+}
+
+.formtitle2{
+    margin-top: 2vw;
+    h2{
+        font-weight: 900;
+    }
+}
+
+.form-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10vw;
+    margin-top: 5vw;
+}
+
+.form-actions{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+   
+}
+.input-span{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-bottom: 0.4vw;
+    max-width: 25rem;
+    span{
+        margin: auto;
+        margin-left: 1.5vw;
+        
+    }
+    input{
+        font-size: 2vw;
+        width: 25rem;
+        margin-top: 0.5vw;
+        padding-left: 1vw;
+    }
+}
+
+
+.boton-validar{
+    font-family: "Montserrat", sans-serif;
+    background-color: #0b5a5a;
+    color: white;
+    padding: 0.9em;
+    cursor: pointer;
+    border-radius: 0.4em;
+    font-weight: 600;
+    border: none;
+    margin: 1vw 2vw 0 0;
+    font-size: 1vw;
+    transition: 0.1s ease;
+
+    &:hover{
+        color: #eef600;
+        background-color: #0b5a5a;
+    }
+}
+
+.boton-validar-sinHover{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background-color: #0b5a5aa3;
+    padding: 0.9em;
+    cursor: pointer;
+    border-radius: 0.4em;
+    margin: 0 1vw 0 0;
+
+    font-weight: 600;
+    border: none;
+    font-size: 1vw;
+    // padding-right: 1vw;
+    // padding-left: 1vw;
+}
+.validacion-mensaje{
+    color: rgb(19, 70, 53);
+    font-size: 1.2vw;
+    margin-left: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+
+.radioButton{
+    text-align: center;
+    margin: 1vw;
+    label{
+        margin: 1vw;
+        font-size: 2vw;
+    }
+    input{
+        margin: 0.5vw;
+    }
+}
+
+.total-a-pagar{
+    font-size: 2vw;
+    margin-top: 2vw;
+    border-top: 2px solid black;
+    padding-top: 3vw;
+}
+
+.checkbox{
+    text-align: center;
+    font-size: 2vw;
+    input{
+        width: 4vw;
+        transform: scale(1.3);
+    }
+}
+.envio-trans{
+    max-width: 25vw;
+}

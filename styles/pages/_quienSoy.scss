@@ -1,0 +1,41 @@
+.container-bio{
+    min-height: 40vw;
+    width: 100%;
+    margin-top: 8vw;
+    color: #084444;
+    margin-bottom: 1vw;
+}
+.biografia{
+    margin: 5vw 15vw;
+    text-align: center;
+    border-right: 3px double #084444;
+    border-left: 3px double #084444;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.biografia{
+    h1{
+        font-size: 5.5vw;
+    }
+    p{
+        font-size: 2.5vw;
+        margin: 3vw 5vw 1vw;
+    }
+}
+.container-map{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    .container-map-titulo{
+        font-size: 5.5vw;
+        color: #084444;
+        margin-bottom: 2vw;
+    }
+    iframe{
+        width: 60vw;
+        height: 50vh;
+        border: 0;
+        margin-bottom: 8vw;
+        border-radius: 2vw;
+    }
+}

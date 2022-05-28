@@ -1,0 +1,45 @@
+@media(max-width:800px){
+    .title-refill{
+        font-size: 7vw !important; 
+    }
+    .container-refill{
+        width: 75%;
+        font-size: 2.8vw;
+        .puntos-refill{
+            font-size: 3.5vw;
+        }
+        .contacto-refill{
+            font-size: 4.5vw;
+        }
+    }
+}
+@media(max-width:525px){
+    .title-refill{
+        font-size: 8vw !important; 
+    }
+    .container-refill{
+        width: 80%;
+        font-size: 3.5vw;
+        .puntos-refill{
+            font-size: 4vw;
+        }
+        .contacto-refill{
+            font-size: 4.9vw;
+        }
+    }
+}
+@media(max-width:360px){
+    .title-refill{
+        font-size: 10vw !important; 
+    }
+    .container-refill{
+        width: 95%;
+        font-size: 5vw;
+        .puntos-refill{
+            font-size: 7vw;
+        }
+        .contacto-refill{
+            font-size: 5.9vw;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@media (max-width:800px){
+    .title-container{
+        h1{
+            font-size: 4.8vw !important;
+        }
+    }
+    .navbar-collapse{
+        ul{
+            li{
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            p{
+                font-size: 4.5vw !important;             
+            }
+        }
+    }
+}
+
+@media (max-width:480px){
+    .title-container{
+        h1{
+            font-size: 10vw !important;
+        }
+    }
+    .navbar-collapse{
+        ul{
+            p{
+                font-size: 6.5vw !important;             
+            }
+        }
+    }
+}

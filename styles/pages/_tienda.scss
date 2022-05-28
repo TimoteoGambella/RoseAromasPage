@@ -1,0 +1,39 @@
+.tiendaTabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width: 100%;
+    height: auto;
+    margin: 1vw 1vw;
+    
+    .tabs{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        border: 1px solid black;
+
+    }
+
+    .tabsPanel{
+        width: 80%;
+        border: 1px solid black;
+        height: 70vw;
+    }
+}
+.cargarMas{
+    text-align: center;
+    color: #084444;
+    cursor: pointer;
+    margin-top: 2vw;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.loading{
+    margin-bottom: 2vw;
+    img{
+        background-color: transparent;
+    }
+}

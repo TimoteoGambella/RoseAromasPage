@@ -1,0 +1,33 @@
+@media (max-width:495px){
+    .container-details-cart{
+        .css-h93ljk-MuiTypography-root{
+            height: auto;
+        }
+    }
+}
+@media (max-width:450px){
+    .container-details-cart{
+        .css-1pnmrwp-MuiTypography-root{
+            font-size: 4vw;
+        }
+        .MuiPaper-root{
+            width: 70%;
+        }
+    }
+}
+@media (max-width:340px){
+    .container-details-cart{
+        .css-1pnmrwp-MuiTypography-root{
+            font-size: 5vw;
+        }
+        .add-cart-button{
+            margin-bottom: 1vw;
+        }
+        .MuiPaper-root{
+            width: 80%;
+        }
+        .boton-atras{
+            font-size: 6vw !important;
+        }
+    }
+}

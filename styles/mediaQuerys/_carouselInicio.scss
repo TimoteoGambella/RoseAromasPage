@@ -1,0 +1,56 @@
+@media (max-width:600px){
+    .container-carousel{
+        width: 90%;
+        .carousel-caption{
+            width: 65%;
+            height: 20vw;
+            h3{
+                font-size: 4vw;
+            }
+            p{
+                font-size: 2.6vw;
+            }
+        }
+    }
+}
+@media (max-width:420px){
+    .container-carousel{
+        width: 100%;
+        .carousel-caption{
+            display: none;
+        }
+        .carousel-titulo-mobile{
+            display: block;
+            position: absolute;
+            right: 20%;
+            top: 0.25rem;
+            left: 20%;
+            text-align: center;
+            background:rgba(8, 68, 68, 0.5);
+            color: white;
+            border-radius: 3vw;
+            font-size: 7vw;
+            h3{
+                background-color: transparent;
+            }
+        }
+        .carousel-desc-mobile{
+            display: block;
+            position: absolute;
+            right: 15%;
+            bottom: 0.75rem;
+            left: 15%;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            text-align: center;
+            background:rgba(8, 68, 68, 0.5);
+            color: white;
+            border-radius: 3vw;
+            font-size: 4vw;
+            p{
+                background-color: transparent;
+                margin: 0 2vw;
+            }
+        }
+    }
+}
